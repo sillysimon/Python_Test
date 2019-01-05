@@ -7,3 +7,4 @@ print(var)
 time.sleep(5)
 var = 0
 print(var)
+var = 10
