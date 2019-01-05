@@ -1,10 +1,6 @@
 import time
-var = 1
-print(var)
-time.sleep(5)
-var += 1
-print(var)
-time.sleep(5)
-var = 0
-print(var)
-var = 10
+sec = 0
+    while sec <= 60:
+        print( hrs , ":" , min, ":" , sec )
+        sec += 1
+        time.sleep(1)
