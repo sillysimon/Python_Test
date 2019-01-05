@@ -5,11 +5,11 @@ min = 0
 hrs = 0
 while True:
     while sec <= 60:
-        print( hrs + ":" + min + ":" + sec )
+        print hrs , ":" , min , ":" , sec
         sec += 1
         time.sleep(1)
- sec -= 60
- min += 1
- if min >= 60:
-     hrs += 1
-     min = 0
+    sec = 0
+    min += 1
+    if min >= 60:
+        hrs += 1
+        min = 0
