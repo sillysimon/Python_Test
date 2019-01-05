@@ -4,7 +4,7 @@ sec = 0
 min = 0
 hrs = 0
 while True:
-    while sec <= 60:
+    while sec < 60:
         print hrs , ":" , min , ":" , sec
         sec += 1
         time.sleep(1)
